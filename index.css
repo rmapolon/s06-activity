@@ -1,0 +1,46 @@
+
+#external {
+    color: yellow;
+}
+
+* {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#h2-tag {
+    text-transform: uppercase;
+}
+
+.languages-to-learn {
+    background-color: #aed19d;
+}
+
+/*change to ol type=1*/
+li[value="number"]{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(157, 176, 209);
+}
+
+img + ul {
+    list-style: none;
+}
+
+section img {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
+
+ul > li {
+    letter-spacing: 10px;
+}
+
+ul ~ p {
+    text-align: center;
+}
